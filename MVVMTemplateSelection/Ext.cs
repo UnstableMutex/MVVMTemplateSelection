@@ -5,7 +5,7 @@ using System.Text;
 
 namespace MVVMTemplateSelection
 {
-   public static class Ext
+    static class Ext
     {
         public static T GetCustomAttribute<T>(this Type type) where T : System.Attribute
         {

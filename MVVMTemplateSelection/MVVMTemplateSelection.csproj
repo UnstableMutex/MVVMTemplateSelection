@@ -35,6 +35,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -44,12 +45,13 @@
     <Compile Include="ComposedDataTemplateSelector.cs" />
     <Compile Include="Ext.cs" />
     <Compile Include="Lazy.cs" />
+    <Compile Include="TSContentControl.cs" />
     <Compile Include="TypeSource.cs" />
     <Compile Include="UseViewAttribute.cs" />
     <Compile Include="ViewAttibuteBasedTemplateSelector.cs" />
     <Compile Include="BaseDataTemplateSelector.cs" />
     <Compile Include="DataTemplateFactory.cs" />
-    <Compile Include="SingleAssemblyTemplateSelector.cs" />
+    <Compile Include="ConventionTemplateSelector.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewForAttribute.cs" />
     <Compile Include="ViewModelAttributeBasedTemplateSelector.cs" />

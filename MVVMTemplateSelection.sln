@@ -1,43 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVVMTemplateSelection", "MVVMTemplateSelection\MVVMTemplateSelection.csproj", "{CB8502B2-C435-4D01-9B75-10D48EA680CF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TSSample", "TSSample\TSSample.csproj", "{21DBE309-05E6-4FA2-B040-129ABE9FBBBD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Navigation", "Navigation\Navigation.csproj", "{5118EA20-4E85-4F84-84B5-2D9358679D37}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WithMEF", "WithMEF\WithMEF.csproj", "{C666E409-00DF-4E09-A53E-981128F08136}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WithMEF.Exported", "WithMEF.Exported\WithMEF.Exported.csproj", "{733E6791-8080-4EB4-82C4-638E84C06777}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WithMEF.Shared", "WithMEF.Shared\WithMEF.Shared.csproj", "{F874A7DB-EAD4-479A-9AED-0FD6297871C7}"
-EndProject
 Global
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 7
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs22
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = MVVMTemplateSelection\\MVVMTemplateSelection.csproj
-		SccProjectName1 = MVVMTemplateSelection
-		SccLocalPath1 = MVVMTemplateSelection
-		SccProjectUniqueName2 = TSSample\\TSSample.csproj
-		SccProjectName2 = TSSample
-		SccLocalPath2 = TSSample
-		SccProjectUniqueName3 = Navigation\\Navigation.csproj
-		SccProjectName3 = Navigation
-		SccLocalPath3 = Navigation
-		SccProjectUniqueName4 = WithMEF\\WithMEF.csproj
-		SccProjectName4 = WithMEF
-		SccLocalPath4 = WithMEF
-		SccProjectUniqueName5 = WithMEF.Exported\\WithMEF.Exported.csproj
-		SccProjectName5 = WithMEF.Exported
-		SccLocalPath5 = WithMEF.Exported
-		SccProjectUniqueName6 = WithMEF.Shared\\WithMEF.Shared.csproj
-		SccProjectName6 = WithMEF.Shared
-		SccLocalPath6 = WithMEF.Shared
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -55,18 +27,6 @@ Global
 		{5118EA20-4E85-4F84-84B5-2D9358679D37}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5118EA20-4E85-4F84-84B5-2D9358679D37}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5118EA20-4E85-4F84-84B5-2D9358679D37}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C666E409-00DF-4E09-A53E-981128F08136}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C666E409-00DF-4E09-A53E-981128F08136}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C666E409-00DF-4E09-A53E-981128F08136}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C666E409-00DF-4E09-A53E-981128F08136}.Release|Any CPU.Build.0 = Release|Any CPU
-		{733E6791-8080-4EB4-82C4-638E84C06777}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{733E6791-8080-4EB4-82C4-638E84C06777}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{733E6791-8080-4EB4-82C4-638E84C06777}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{733E6791-8080-4EB4-82C4-638E84C06777}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F874A7DB-EAD4-479A-9AED-0FD6297871C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F874A7DB-EAD4-479A-9AED-0FD6297871C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F874A7DB-EAD4-479A-9AED-0FD6297871C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F874A7DB-EAD4-479A-9AED-0FD6297871C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

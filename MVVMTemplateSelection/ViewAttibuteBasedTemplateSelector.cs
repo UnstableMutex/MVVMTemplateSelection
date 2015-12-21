@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Reflection;
 using System.Windows;
 
@@ -32,6 +33,7 @@ namespace MVVMTemplateSelection
             Type viewModelType = item.GetType();
             string loweredViewModelTypeName = viewModelType.Name.ToLower();
             IEnumerable<Type> viewTypes = TypeSource.Types;
+            viewTypes = viewTypes.Where(x => x.Name.EndsWith("View"));
             foreach (Type viewType in viewTypes)
             {
                 var att = viewType.GetCustomAttribute<ViewForAttribute>();
